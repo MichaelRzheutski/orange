@@ -1,0 +1,127 @@
+/*----------------- Reset CSS -----------------*/
+@import "reset.css";
+
+/*----------------- Font Face -----------------*/
+@font-face {
+	font-family: 'Gill Sans MT';
+	src: url('../fonts/GillSansMT.eot');
+	src: url('../fonts/GillSansMT.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GillSansMT.woff2') format('woff2'),
+		url('../fonts/GillSansMT.woff') format('woff'),
+		url('../fonts/GillSansMT.ttf') format('truetype'),
+		url('../fonts/GillSansMT.svg#GillSansMT') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Eras Medium ITC';
+	src: url('../fonts/ErasITC-Medium.eot');
+	src: url('../fonts/ErasITC-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ErasITC-Medium.woff2') format('woff2'),
+		url('../fonts/ErasITC-Medium.woff') format('woff'),
+		url('../fonts/ErasITC-Medium.ttf') format('truetype'),
+		url('../fonts/ErasITC-Medium.svg#ErasITC-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Candara';
+	src: url('../fonts/Candara.eot');
+	src: url('../fonts/Candara.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Candara.woff2') format('woff2'),
+		url('../fonts/Candara.woff') format('woff'),
+		url('../fonts/Candara.ttf') format('truetype'),
+		url('../fonts/Candara.svg#Candara') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica CE';
+	src: url('../fonts/HelveticaCE-Regular.eot');
+	src: url('../fonts/HelveticaCE-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaCE-Regular.woff2') format('woff2'),
+		url('../fonts/HelveticaCE-Regular.woff') format('woff'),
+		url('../fonts/HelveticaCE-Regular.ttf') format('truetype'),
+		url('../fonts/HelveticaCE-Regular.svg#HelveticaCE-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*----------------- Common Styles -----------------*/
+html, body {font: 11px Arial, Helvetica, Verdana, sans-serif; background: #ccc; height: 100%;}
+div#wrap {width: 960px; margin: 0 auto;}
+
+/*----------------- Top Logo -----------------*/
+#top-menu {height: 93px; background: url(../images/main-bg.png) repeat-x;}
+#top-menu .orange, #top-menu .wel {float: left; background-repeat: no-repeat; text-indent: -9999px;}
+
+#top-menu .orange {background: url(../images/logo.png); width: 112px; height: 32px; margin: 33px 0 0 100px;}
+#top-menu .wel {background: url(../images/logo2.png); width: 37px; height: 6px; margin: 59px 0 0 -72px;}
+
+/*----------------- Top Menu -----------------*/
+#top-menu nav {float: right; margin: 40px 100px 0 0;}
+#top-menu nav li {float: left; font: 16px "Eras Medium ITC", sans-serif; padding-left: 20px;}
+#top-menu nav a {color: #848484; padding: 2px 0 0 5px; text-decoration: none; display: block;}
+#top-menu nav a.active {background: url(../images/nav-bg.png) no-repeat; height:22px; width:73px;}
+#top-menu nav a.active span {padding-left:10px;}
+#top-menu nav a:hover {color: #b5b3b3;}
+
+/*----------------- Header -----------------*/
+header {height: 234px; width: 960px; background: url(../images/head.gif) no-repeat center center;}
+header img {float: left; margin: 4px 0 0 25px;}
+div#header-text {width: 300px; float: right; margin: 45px 115px 0 0;}
+span.your-title {font: 36px "Gill Sans MT", sans-serif; color: #fff; width: 315px; height: 34px;}
+p.amet {font: 12px "Eras Medium ITC", sans-serif; color: #4c0000; width: 250px; height: 11px; margin: 5px 0 0 48px;}
+p.amet span {margin-left: 18px;}
+div.header-text-words {font: 12px/17px Candara, sans-serif; color: #fff; width: 310px; height: 68px; margin-top: 20px;}
+
+/*----------------- Content -----------------*/
+#content {background: url(../images/background.png) repeat-x; padding: 50px 0 0 108px; overflow: hidden; height: 480px;}
+#welcome-text {height: 212px; margin-right: 80px;}
+#welcome-text h1 {font: 19px Candara, sans-serif; color: #7b7a7a; height: 13px;}
+#welcome-text p {font: 12px/1.5em "Helvetica CE", sans-serif; margin-top: 23px; text-indent: 30px; color: #9c9b9b;}
+
+/*----------------- Separator -----------------*/
+.separator {background-color: #eae6e6; width: 446px; height: 1px; margin: 20px auto;}
+
+/*----------------- Customer Review -----------------*/
+.customer-review {width: 222px; color: #616161; float: left;}
+.customer-review img {margin: 0 0 -20px -5px;}
+.customer-review img.say {margin: 0 0 -20px -10px;}
+
+.customer-review p {font: italic 12px/1.3em "Helvetica CE", sans-serif; padding-top: 10px; color: #8f8e8e;}
+
+.customer-review h1.cust-rev {font: 19px Candara, sans-serif; color: #616161; margin: 0 35px;}
+.customer-review h1.feat,
+.customer-review h1.prices {font: 19px Candara, sans-serif; color: #616161; margin: 0 30px;}
+
+.customer-review h3 {padding-top: 16px; font-size: 11px;}
+
+.customer-review ul.features, .customer-review ul.prices {list-style-type: none; font: 11px/1.5em "Helvetica CE", sans-serif;}
+
+.customer-review ul.features li { background: url(../images/check.png) no-repeat 1px; padding: 12px 0 0 20px;}
+.customer-review ul.prices li {background: url(../images/money.png) no-repeat 1px; padding: 10px 0 0 24px;}
+
+.name-bold {font-weight: bold;}
+.block-separator {background-color: #eae6e6; height: 175px; width: 1px; float: left; margin: 30px 45px 0 20px;}
+
+/*----------------- Footer -----------------*/
+#footer {font: 12px Arial; height: 45px; background: url(../images/back-foot.gif) repeat-x;}
+
+#footer .orange,
+#footer .wel {float:left; background-repeat: no-repeat; text-indent:-9999px;}
+
+#footer .orange {background: url(../images/logo.png); width: 112px; height: 32px; margin: 6px 0 0 100px;}
+#footer .wel {background: url(../images/logo2.png); width: 37px; height: 6px; margin: 30px 0 0 -72px;}
+
+#footer .copy {color: #ccc; padding-left: 3px;}
+#footer p.copyright {color: #fff; padding: 15px 0; float: left;}
+
+#footer p.rss {color: #d8d8d6; text-transform: uppercase; float: right; padding: 15px 88px 0 0;}
+#footer p.rss a {color: #d8d8d6; text-decoration: none;}
+#footer p.rss a:hover {text-decoration: underline;}
+div.rss-cont img {padding-top: 16px; width: 12px; height: 12px;}
+.rss-cont {width: 130px; float: right;}

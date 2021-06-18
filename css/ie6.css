@@ -1,0 +1,51 @@
+/* Styles For IE 6 */
+
+/*----------------- Top Logo -----------------*/
+#top-menu {height: 93px; background: url(images/main-bg.png) repeat-x;}
+#top-menu .orange, #top-menu .wel {text-indent:-9999px; float: left; background-repeat: no-repeat;}
+
+#top-menu .orange {background: url(images/logo.png); width: 112px; height: 32px; margin: 33px 0 0 50px;}
+#top-menu .wel {background: url(images/logo2.png); width: 37px; height: 6px; margin: 59px 0 0 -72px;}
+
+/*----------------- Top Menu -----------------*/
+#top-menu nav {float: right; margin: 40px 50px 0 0;}
+
+/*----------------- Header -----------------*/
+header {height: 234px; width: 960px; background: url(images/head.gif) no-repeat center center;}
+header img {float: left; margin: 4px -75px 0 23px;}
+div#header-text {width: 300px; float: right; margin: 45px 75px 0 0;}
+
+/*----------------- Top Logo, Footer Logo - Common Styles -----------------*/
+#top-menu .wel, #footer .wel {background-repeat: no-repeat;}
+
+/*----------------- Content -----------------*/
+.content {background: url(images/background.png) repeat-x; padding: 50px 0 0 108px; overflow: hidden; height: 480px;}
+
+/*----------------- Customer Review -----------------*/
+.customer-review {width: 222px; color: #616161; float: left;}
+.customer-review img {margin-bottom: -23px;}
+.customer-review img.say {margin: 0 0 -20px -10px;}
+
+.customer-review h1.cust-rev,
+.customer-review h1.feat,
+.customer-review h1.prices {text-indent: -9999px; background-repeat: no-repeat;}
+
+.customer-review h1.cust-rev {background: url(images/customer-review.png); width: 141px; height: 12px; margin: 0 32px;}
+.customer-review h1.feat {background: url(images/features.png); width: 68px; height: 12px; margin: 0 32px;}
+.customer-review h1.prices {background: url(images/prices-title.png); width: 46px; height: 12px; margin: 0 32px;}
+
+.customer-review ul.features,
+.customer-review ul.prices {list-style-type:none;}
+
+.customer-review ul.features li,
+.customer-review ul.prices li {line-height: 1.5em; background-repeat: no-repeat;}
+
+.customer-review ul.features li {background: url(images/check.png) 1px; padding: 12px 0 0 15px;}
+.customer-review ul.prices li {background: url(images/money.png) 1px; padding: 12px 0 0 25px;}
+
+/*----------------- Footer -----------------*/
+#footer .orange, #footer .wel {float: left; background-repeat: no-repeat; text-indent:-9999px;}
+#footer .orange {background: url(images/logo.png); width: 112px; height: 32px;  margin: 6px 0 0 50px;}
+#footer .wel {background: url(images/logo2.png); width: 37px; height: 6px; margin: 30px 0 0 -72px;}
+
+#footer p.rss {color: #d8d8d6; text-transform: uppercase; float: right; padding-right: 88px;  margin-top: -31px;}

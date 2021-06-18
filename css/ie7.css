@@ -1,0 +1,16 @@
+/* Styles For IE 7 */
+
+/*----------------- Header -----------------*/
+span.your-title {line-height: 40px; font-weight: normal;}
+p.ammet {width: 288px; font-weight: normal;}
+div.header-text-words {font: normal 12px Candara, sans-serif;}
+
+/*----------------- Customer Review -----------------*/
+.customer-review h1.cust-rev,
+.customer-review h1.feat,
+.customer-review h1.prices {width: 222px; font-weight: normal;}
+
+.customer-review h3 {font-weight: normal;}
+
+/*----------------- Footer -----------------*/
+#footer p.rss {padding-right: 88px; margin-top: -31px;}

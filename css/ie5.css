@@ -1,0 +1,40 @@
+/* Styles For IE 5 */
+
+/*----------------- Common Styles -----------------*/
+body {text-align: center;}
+div#wrap {text-align: left;}
+
+/*----------------- Header -----------------*/
+div#header-text {margin: 45px 83px 0 0;}
+span.your-title {line-height: 40px; font-weight: normal;}
+p.amet {width: 288px; font-weight: normal; margin-left: 48px;}
+div.header-text-words {font: normal 12px Candara, sans-serif;}
+
+/*----------------- Top Logo, Footer Logo - Common Styles -----------------*/
+#top-menu .wel, #footer .wel {background-repeat: no-repeat;}
+
+/*----------------- Content -----------------*/
+#content {height: 530px;}
+#welcome-text {text-align: center;}
+#welcome-text h1 {text-align: left;}
+#welcome-text p {text-align: left;}
+
+/*----------------- Separator -----------------*/
+.separator {overflow: hidden; text-align: center;}
+
+/*----------------- Customer Review -----------------*/
+.customer-review img {margin-bottom: -20px;}
+.customer-review h1.cust-rev,
+.customer-review h1.feat,
+.customer-review h1.prices,
+.customer-review h3 {font-weight: normal;}
+
+.customer-review h1.cust-rev {width: 143px;}
+.customer-review h1.feat {width: 70px;}
+.customer-review h1.prices {width: 222px;}
+
+.block-separator {margin: 30px 20px 0 20px;}
+
+/*----------------- Footer -----------------*/
+#footer p.rss {padding-right: 88px; margin-top: -31px;}
+.rss-cont {margin-top: 15px;}
