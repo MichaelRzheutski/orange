@@ -4,4 +4,4 @@ Desktop First. Фиксированная вёрстка с использова
 
 Используемые технологии: **HTML5**, **CSS3**, **JavaScript**, **Git**.
 
-![Orange - Entire-Page](orange.png)
+![Orange - Entire-Page](orange.jpg)
